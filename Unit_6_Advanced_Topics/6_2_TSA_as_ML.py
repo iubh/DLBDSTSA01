@@ -58,7 +58,7 @@ features_to_extract = [ \
     "amplitude", "percent_beyond_1_std", \
     "percent_close_to_median", "skew", \
     "max_slope","mean", "std", "minimum", \
-    "max_slope", "median", "maximum", "median", \
+    "median", "maximum", "median", \
     "weighted_average", "median_absolute_deviation"]
 
 # %% extract features from time series
@@ -124,3 +124,5 @@ print('Mean Accuracy:', round(acc, 4))
 
 # console output:
 # Mean Accuracy: 0.5119
+
+# %%
